@@ -5,7 +5,7 @@
 # example on how to run:
 # docker run -it benjamintanweihao/kubeflow-mnist /bin/bash
 
-FROM tensorflow/tensorflow:1.14.0-gpu-py3
+FROM tensorflow/tensorflow:1.14.0-py3
 LABEL MAINTAINER "Benjamin Tan <benjamintanweihao@gmail.com>"
 SHELL ["/bin/bash", "-c"]
 
